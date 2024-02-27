@@ -13,7 +13,7 @@ const HomeSection6 = ({ id }: { id: string }) => {
     >
       <ConstraintedBox classNames="p-4 py-16">
         <p className="text-center mx-auto text-3xl/6 md:text-4xl/6 font-bold">
-          Get in Touch
+        Entrar em contato
         </p>
 
         <Column classNames="mt-16 w-full">
@@ -31,8 +31,8 @@ const HomeSection6 = ({ id }: { id: string }) => {
           </GridBox>
 
           <p className="text-center mx-auto mt-16 text-2xl/6 font-semibold">
-            I&apos;m{" "}
-            <span className="text-[var(--primaryColor)]">available</span> for
+            Estou{" "}
+            <span className="text-[var(--primaryColor)]">disponivel</span> para
             freelancing.
           </p>
         </Column>

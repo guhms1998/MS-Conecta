@@ -101,13 +101,13 @@ const NavBar = () => {
             <Image
               src="/icon.png"
               alt="profile"
-              width={80}
-              height={80}
+              width="200"
+              height="200"
               sizes="100%"
               priority
               placeholder="blur"
               blurDataURL="/icon.png"
-              className="w-10 lg:w-12 h-auto"
+              className="w-[30] lg:w-[30] h-auto"
             />
           </Link>
 

@@ -3,42 +3,45 @@ import {
   faLaptopCode,
   faServer,
   faBrain,
+  faCopyright,
 } from "@fortawesome/free-solid-svg-icons";
 import { IServiceItem } from "@/types";
 
 const services: IServiceItem[] = [
+  
   {
-    title: "Mobile App Development",
+    title: "Desenvolvimento de Sites Responsivos",
     icon: faMobileButton,
     shortDescription:
-      "I specialize in creating captivating mobile applications that engage your audience.",
+      "Desenvolvemos sites responsivos para celular e computador de forma rápida e versátil.",
     description:
-      "I specialize in creating captivating mobile applications that engage your audience. From concept to deployment, I develop native and cross-platform apps for iOS and Android. With cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that aligns perfectly with your business goals.",
+      "Seu site é a porta de entrada para o seu negócio online. Desenvolvemos sites responsivos que se adaptam a qualquer dispositivo, garantindo uma experiência de navegação excepcional para seus clientes. Conte com nossa expertise para destacar sua marca na web.",
   },
   {
-    title: "Web Development",
+    title: "Destaque Online Personalizado",
     icon: faLaptopCode,
     shortDescription:
-      "I deliver visually stunning and user-friendly websites to help you establish a strong online presence.",
+      "Destaque online personalizado para o seu site e negócio.",
     description:
-      "I deliver visually stunning and user-friendly websites to help you establish a strong online presence. Whether it's a simple informational site or a complex e-commerce platform, I provide tailored web development solutions. Using the latest frameworks and technologies, I create responsive, SEO-friendly websites that offer a seamless browsing experience on all devices.",
+      "Sua presença online é crucial para o sucesso do seu negócio. Criamos soluções personalizadas para destacar sua marca na internet, desde websites informativos até plataformas de comércio eletrônico. Conte com nosso conhecimento para impulsionar seu negócio na web.",
   },
   {
-    title: "Backend Development",
-    icon: faServer,
+    title: "Reformulação de Design Online",
+    icon: faCopyright,
     shortDescription:
-      "I enhance your digital applications with a robust and scalable backend infrastructure.",
+      "Reformule seus designs online, incluindo redes sociais e aplicativos.",
     description:
-      "I enhance your digital applications with a robust and scalable backend infrastructure. With expertise in backend development, I create efficient database structures, develop APIs, and configure servers to ensure optimal performance, security, and scalability. My solutions empower your applications to seamlessly handle high traffic and complex data management.",
+      "A imagem da sua marca na internet é essencial. Reformulamos o design do seu site, redes sociais e aplicativos para garantir uma presença online moderna e atrativa. Conte com nossa experiência para renovar sua identidade digital e conquistar mais clientes.",
   },
   {
-    title: "Product Strategy",
+    title: "Suporte em Tecnologia da Informação",
     icon: faBrain,
     shortDescription:
-      "I collaborate with you to define clear goals, target audiences, and a roadmap for success.",
+      "Oferecemos suporte em TI para o seu negócio.",
     description:
-      "I collaborate with you to define clear goals, target audiences, and a roadmap for success. My expertise in product ideation and market analysis ensures that your product not only meets user needs but also aligns with your business strategy for long-term growth and full potential of your digital products with effective product strategy.",
+      "A tecnologia da informação é a base do seu negócio digital. Oferecemos suporte especializado para garantir que sua infraestrutura de TI seja confiável, segura e eficiente. Conte com nossa equipe para manter seu negócio funcionando sem problemas.",
   },
+  
 ];
 
 export default services;

@@ -24,23 +24,23 @@ const HomeSection1 = ({ id }: { id: string }) => {
         <GridBox classNames="justify-items-stretch !gap-16 lg:!gap-8">
           <Column classNames="justify-center max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg">
             <Column classNames="max-w-full">
-              <p className="text-base/6 drop_in">Hi 👋 I&apos;m</p>
+              <p className="text-base/6 drop_in">Oi 👋 Bem vindo a </p>
 
               <p className="text-4xl/normal md:text-5xl/normal font-bold text-[var(--primaryColor)] drop_in">
-                Nikhil Rajput
+              MS Conecta
               </p>
 
               <p className="text-sm/6 font-medium text-[var(--textColorLight)] drop_in">
-                Software Enginner & Full Stack Developer
+              Gustavo Henrique
               </p>
 
               <p className="text-base/normal mt-8 drop_in">
                 <Balancer>
-                  Welcome to my portfolio! I am a passionate full-stack
-                  developer with 1+ years of experience. I specialize in
-                  creating user-centric software, proficient in both front-end
-                  and back-end development across various platforms. I integrate
-                  cutting-edge technology seamlessly while prioritizing design.
+Estou começando a MS Conecta com o objetivo de ajudar lojas locais a darem os primeiros
+                  passos no mundo digital. Sei que começar pode parecer assustador, mas estou aqui para simplificar esse processo para você.
+                  Com meus serviços, posso criar um site simples e eficaz para a sua loja, além de te auxiliar na entrada ou reformulação em
+                  plataformas como o iFood e nas redes sociais. Mesmo com meu conhecimento ainda em desenvolvimento, estou comprometido em oferecer o melhor suporte possível.
+                  Junte-se a mim na MS Conecta e dê o primeiro passo rumo ao sucesso digital!
                 </Balancer>
               </p>
 
